@@ -1,50 +1,87 @@
-*{
-    margin: 0;
-    padding: 0;
-    
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: blanchedalmond;
+body {
+  background-color: blanchedalmond;
 }
 
-.container-nav{
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    /* border: 1px solid black; */
-    height: 10vh;
-    border-bottom: 1px solid black;
+.container-nav {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  /* border: 1px solid black; */
+  height: 10vh;
+  border-bottom: 1px solid black;
 }
 
-.container-nav header{
-    display: flex;
-    width: 100vw;
-    /* border: 1px solid red; */
+.container-nav header {
+  display: flex;
+  width: 100vw;
+  /* border: 1px solid red; */
 }
 
-.container-nav header ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    /* border: 1px solid blue; */
-
+.container-nav header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  /* border: 1px solid blue; */
 }
 
-.container-nav header ul li{
-   display: flex;
-   /* border: 1px solid salmon; */
-   margin-left: 5%;
+.container-nav header ul li {
+  display: flex;
+  /* border: 1px solid salmon; */
+  margin-left: 5%;
 }
 
-.container-nav header ul li a{
-    text-decoration: none;
-    color: black;
+.container-nav header ul li a {
+  text-decoration: none;
+  color: black;
 }
 
-.container-nav header ul li a:hover{
-    cursor: pointer;
-    color: maroon;
+.container-nav header ul li a:hover {
+  cursor: pointer;
+  color: maroon;
+}
+
+/***************** PAGE INSCRIPTION + FORMULAIRE ****************/
+.mydivco{
+  display: block;
+}
+.subscribe-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+  align-items: center;
+  width: 100vw;
+  margin-top: 5%;
+  padding: 2%;
+}
+.btn-sub-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+  padding-top: 5%;
+}
+.btn-sub-container button{
+  margin-left: 15%;
+  
+
+}
+.subscribe-container form{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-container form label,input{
+    margin-bottom: 2%;
 }
