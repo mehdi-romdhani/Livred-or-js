@@ -60,6 +60,7 @@ formConnexion.addEventListener('submit',(event)=>{
     event.preventDefault();
     let data =new FormData(formConnexion);
     console.log(data);
+    console.log('max test')
 })
 
 
